@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tudo_gostoso/models/recipe.dart';
 
 class ListElements extends StatelessWidget {
   final List<String> _list;

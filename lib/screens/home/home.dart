@@ -48,8 +48,9 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Tudo Gostoso"),
-        // leading: Image.asset(assets/images/logo.jpg,
-        // ),
+        leading: Image.asset(
+          "assets/images/logo.jpg",
+        ),
         backgroundColor: orangeTheme,
       ),
       body: SingleChildScrollView(
