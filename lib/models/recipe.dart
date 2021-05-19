@@ -7,6 +7,8 @@ class Recipe {
   int income;
   List<String> ingredientsPaste;
   List<String> ingredientsRoof;
+  List<String> preparePaste;
+  List<String> prepareRoof;
 
   Recipe({
     required this.photo,
@@ -17,5 +19,7 @@ class Recipe {
     required this.income,
     required this.ingredientsPaste,
     required this.ingredientsRoof,
+    required this.preparePaste,
+    required this.prepareRoof,
   });
 }
